@@ -14,5 +14,6 @@ class VakinhaAppbar extends AppBar {
             'assets/images/logo.png',
             width: 80,
           ),
+          iconTheme: const IconThemeData(color: Colors.black),
         );
 }
