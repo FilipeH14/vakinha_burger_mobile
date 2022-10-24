@@ -44,7 +44,7 @@ class LoginPage extends StatelessWidget {
                     Center(
                       child: VakinhaButton(
                         label: 'Entrar',
-                        width: context.width,
+                        width: double.infinity,
                         onPressed: () {},
                       ),
                     ),
@@ -58,7 +58,7 @@ class LoginPage extends StatelessWidget {
                             'Cadastre-se',
                             style: VakinhaUi.textBold,
                           ),
-                          onPressed: () {},
+                          onPressed: () => Get.toNamed('/auth/register'),
                         )
                       ],
                     ),
